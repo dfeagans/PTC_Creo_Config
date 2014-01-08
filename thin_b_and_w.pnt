@@ -1,0 +1,24 @@
+! Pen Table File - 5/17/2013
+! Penske Racing - Dane Feagans
+
+! Pen 1 = white entities (object lines)
+! Pen 2 = yellow entities (text, dimensions, cross hatching)
+! Pen 3 = gray entities (hidden lines)
+! Pen 4 = red entities (can use for drawing border if you change the 
+! entity color to red in the format file)
+! Pen 5 = green entities (sheetmetal)
+! Pen 6 = cyan entities (section)
+! Pen 7 = dark gray entities (dimmed)
+! Pen 8 = blue entities (spline surface grid)
+
+! You can specify the thickness of the lines in either IN or CM.
+! I believe the min-max are 0.005 to 0.08"
+
+pen 1 thickness .005 in;color 0.0 0.0 0.0
+pen 2 thickness .005 in;color 0.0 0.0 0.0
+pen 3 thickness .005 in;color 0.0 0.0 0.0
+pen 4 thickness .005 in;color 0.0 0.0 0.0
+pen 5 thickness .005 in;color 0.0 0.0 0.0
+pen 6 thickness .005 in;color 0.0 0.0 0.0
+pen 7 thickness .005 in;color 0.0 0.0 0.0
+pen 8 thickness .005 in;color 0.0 0.0 0.0
