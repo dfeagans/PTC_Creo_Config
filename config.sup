@@ -1,0 +1,95 @@
+pro_format_dir wtpub://pdm/Libraries/PRS_Library/PRS/ZZ - Drawing Templates/
+hole_parameter_file_path C:\ptc\peshared\PRS\HOLE_DATA
+pro_material_dir C:\ptc\peshared\PRS\MATERIALS
+template_solidpart C:\ptc\peshared\PRS\START_PARTS\FEAGANS\prs_part_wt45lbs_rev_a.prt
+template_designasm C:\ptc\peshared\PRS\START_PARTS\FEAGANS\prs_asm_inlbs_rev_a.asm.1
+pro_symbol_dir C:\ptc\peshared\PRS\SYMBOLS
+pro_group_dir C:\ptc\peshared\PRS\UDF
+symbol_instance_palette_file C:\ptc\peshared\PRS\SYMBOLS\symbol_pallete.drw.1
+drawing_setup_file C:\ptc\peshared\PRS\DTL\PRSDraw.dtl
+trail_dir C:\PTC\ProE_home\trail
+file_open_default_folder workspace
+
+web_browser_homepage http://www.penskeracing.com
+
+right_mouse_button_popup yes
+saveunders_enabled yes
+
+accuracy_lower_bound 0.0001
+default_abs_accuracy 0.0001
+enable_absolute_accuracy yes
+tolerance_standard ansi
+chamfer_45deg_dim_text ISO/DIN
+
+let_proe_rename_pdm_objects yes
+rename_drawings_with_object both
+save_unchanged_pdm_object AS_REF
+dm_remember_server yes
+dm_emulate_ilink_sys_parameters yes
+dm_search_primary_server yes
+dm_network_threads 4
+dm_http_compression_level 3
+dm_network_request_size 100000
+compress_output_files yes
+dm_cache_limit 0
+use_temp_dir_for_inst yes
+verify_on_save_by_default yes
+freeze_failed_assy_comp no
+
+!mass_property_calculate automatic
+
+advanced_style_surface_edit yes
+hlr_for_quilts yes
+
+default_ang_units ang_deg
+default_dec_places 3
+default_ang_dec_places 1
+default_dim_num_digits_changes yes
+dim_fraction_denominator 32
+dim_fraction_format std
+minimum_angle_dimension 0.5
+tol_mode nominal
+use_major_units no
+tol_display yes
+maintain_limit_tol_nominal no
+parenthesize_ref_dim yes
+pro_unit_sys proe_def
+
+hole_diameter_override yes
+
+create_drawing_dims_only yes
+create_fraction_dim no
+
+/* FS DEFAULT DRAW SCALE 1.000, MS DEFAULT SCALE 0.450
+default_draw_scale 1.000
+/* default_draw_scale 0.450
+
+default_ext_ref_scope all
+
+default_geom_analysis_type quick
+
+default_object_invalid_refs PROHIBIT
+default_object_scope_setting all
+
+fail_ref_copy_when_missing_orig yes
+
+feature_create_auto_begin yes
+feature_create_auto_ok no
+
+flip_arrow_scale 2.0
+
+orientation user_default
+x_angle -135
+y_angle 144.73
+
+sim_max_memory_usage 0
+
+transparency yes
+
+excel_family_table_keep_file yes
+
+make_parameters_from_fmt_tables yes
+
+relation_file_editor protab
+
+tangent_edge_display dimmed
