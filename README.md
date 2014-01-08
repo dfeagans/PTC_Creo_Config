@@ -1,5 +1,4 @@
-PTC Creo Configuration Files
-======================
+###PTC Creo Configuration Files
 
 PTC Creo Configuration Files (MapKeys, System Colors, Tree Configuration)
 
