@@ -11,6 +11,7 @@ trail_dir C:\PTC\ProE_home\trail
 file_open_default_folder workspace
 
 web_browser_homepage http://www.penskeracing.com
+enable_3dmodelspace_browser_tab no
 
 right_mouse_button_popup yes
 saveunders_enabled yes
