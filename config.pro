@@ -284,3 +284,4 @@ mapkey(continued) @SYSTEMStart \\\\thea\\DavWWWRoot\\Engineering\\PRS\\aero\\Dra
 
 merge_type join
 advanced_style_surface_edit yes
+copy_geometry_method references
