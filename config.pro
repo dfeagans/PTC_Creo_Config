@@ -5,7 +5,6 @@ iges_out_all_srfs_as 128
 iges_out_trm_srfs_as_143 no
 
 !General System Settings
-
 bell NO
 start_appmgr NO
 trail_dir C:\PTC\ProE_home\trail
@@ -72,7 +71,7 @@ default_dec_places 3
 default_ang_dec_places 1
 dim_fraction_denominator 32
 
-! General drawing settings
+! Drawing Specific Settings
 display_in_adding_view WIREFRAME
 force_wireframe_in_drawings NO
 allow_move_view_with_move NO
@@ -82,6 +81,8 @@ parenthesize_ref_dim yes
 chamfer_45deg_dim_text ISO/DIN
 create_fraction_dim no
 template_drawing EMPTY
+copy_geometry_method references
+merge_type join
 
 ! Assembly settings
 comp_assemble_start PACKAGE
@@ -99,12 +100,19 @@ rename_drawings_with_object both
 let_proe_rename_pdm_objects yes
 file_open_default_folder workspace
 
-!Random DF Specific Ones
+!Sketcher Specific Settings
 sketcher_dimension_autolock yes
 sketcher_starts_in_2d yes
 default_font arial
 default_draw_scale 1.000
 dxf_export_format 2000
+
+!Style Specific Settings
+advanced_style_surface_edit yes
+keep_style_items_hidden_on_exit yes
+style_auto_regen_curves no
+style_auto_regen_shaded_surface no
+style_auto_regen_surface no
 
 !Added 5/29/2013 to enable browser control of Pro-E.
 smooth_lines yes
@@ -280,8 +288,3 @@ mapkey(continued) ~ Activate `main_dlg_cur` `page_Layout_control_btn`1;\
 mapkey(continued) @SYSTEM"C:\\Users\\dfeagans\\Documents\\Creo File Location\\dxf_script.vbs";
 mapkey $F7 @MAPKEY_LABELRelease Folder;\
 mapkey(continued) @SYSTEMStart \\\\thea\\DavWWWRoot\\Engineering\\PRS\\aero\\Drawings\\;
-
-
-merge_type join
-advanced_style_surface_edit yes
-copy_geometry_method references
