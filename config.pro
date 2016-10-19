@@ -58,6 +58,7 @@ datum_display NO
 datum_point_display NO
 datum_point_tag_display NO
 display_coordinate_sys NO
+display_annotations NO
 hlr_for_quilts yes
 shade_surface_feat YES
 
