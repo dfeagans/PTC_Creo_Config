@@ -50,7 +50,7 @@ show_shaded_edges no
 flip_arrow_scale 2.0
 graphics opengl
 
-!Environment display settings
+!Environment Display Settings
 spin_center_display no
 display shade
 axis_display NO
@@ -62,11 +62,11 @@ display_annotations NO
 hlr_for_quilts yes
 shade_surface_feat YES
 
-! Tolerance display characteristics
+! Tolerance Display Characteristics
 tol_display yes
 tol_mode NOMINAL
 
-! Database unit and tolerance settings
+! Database Unit and Tolerance Settings
 enable_absolute_accuracy yes
 default_dec_places 3
 default_ang_dec_places 1
@@ -85,7 +85,7 @@ template_drawing EMPTY
 copy_geometry_method references
 merge_type join
 
-! Assembly settings
+! Assembly Settings
 comp_assemble_start PACKAGE
 comp_rollback_on_redef no
 
@@ -100,6 +100,7 @@ save_unchanged_pdm_object AS_REF
 rename_drawings_with_object both
 let_proe_rename_pdm_objects yes
 file_open_default_folder workspace
+dm_checkout_on_the_fly continue
 
 !Sketcher Specific Settings
 sketcher_dimension_autolock yes
