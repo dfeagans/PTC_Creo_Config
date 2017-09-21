@@ -25,6 +25,8 @@ use_temp_dir_for_inst yes
 fail_ref_copy_when_missing_orig yes
 fail_unattached_feature YES
 fail_if_sec_regen_warning YES
+copy_geometry_method references
+new_cg_update_state NOTIFY
 
 !Screen Settings
 visible_message_lines 3
@@ -82,7 +84,6 @@ parenthesize_ref_dim yes
 chamfer_45deg_dim_text ISO/DIN
 create_fraction_dim no
 template_drawing EMPTY
-copy_geometry_method references
 merge_type join
 
 ! Assembly Settings
