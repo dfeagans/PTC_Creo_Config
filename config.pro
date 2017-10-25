@@ -109,6 +109,7 @@ sketcher_starts_in_2d yes
 default_font arial
 default_draw_scale 1.000
 dxf_export_format 2000
+intf_out_blanked_entities no
 
 !Style Specific Settings
 advanced_style_surface_edit yes
